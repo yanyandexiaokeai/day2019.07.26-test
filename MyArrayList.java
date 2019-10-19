@@ -141,7 +141,7 @@ public class MyArrayList {
 		return array[index];
 	}
 	
-	publiv void set(int index,int element){
+	public void set(int index,int element){
 		if(index<0||index>=size){
 			System.err.println("下标错误");
 			return;
